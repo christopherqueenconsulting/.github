@@ -66,7 +66,7 @@ Encountered a bug? Have a feature request? Let us know through our [Issue Tracke
 ## Community and Support
 
 Join the conversation and stay updated by following us on social media:
-- **LinkedIn**: [Christopher Queen](https://linkedin.com/in/christopherqueen)
+- **LinkedIn**: [Christopher Queen Consulting on LI](https://www.linkedin.com/company/christopherqueenconsulting/)
 - **FaceBook**: [Christopher Queen Consulting](https://www.facebook.com/christopherqueenconsulting)
 - **Twitter**: [@ConsultChrisQ](https://twitter.com/consultchrisq)
 - **Stack Overflow**: Use the tag `christopher-queen-consulting` for related questions
