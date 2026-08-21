@@ -1,86 +1,79 @@
+<p align="center"><a href="https://christopherqueenconsulting.com/?utm_source=github&utm_medium=org_profile">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/banner-dark.svg">
+  <img alt="Christopher Queen Consulting — Applied AI Engineering: LLM, RAG, and Agent Systems" src="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/banner-light.svg" width="830" height="208">
+</picture>
+</a></p>
 
-# Christopher Queen Consulting
+# Christopher Queen Consulting — Applied AI Engineering & AI Consulting
 
-![Logo](https://www.christopherqueenconsulting.com/files/2024/06/cropped-CQC_Full_FInal.png)
+**Christopher Queen Consulting is an independent applied AI engineering consultancy in Jacksonville, Florida, that designs, builds, and ships production LLM, RAG, and agent systems — with the evaluation harnesses and governance to prove they work.** Principal-led since 2017: you work directly with Christopher Queen, an engineer with 15+ years of full-stack experience (Python, TypeScript, AWS) who ships the system himself.
 
-## Organization Overview
+<p align="center">
+  <a href="https://christopherqueenconsulting.com/?utm_source=github&utm_medium=org_profile"><img alt="Christopher Queen Consulting website — christopherqueenconsulting.com" src="https://img.shields.io/badge/Website-christopherqueenconsulting.com-a89816?style=flat-square"></a>
+  <a href="mailto:info@christopherqueenconsulting.com?subject=Project%20inquiry%20via%20GitHub"><img alt="Email Christopher Queen Consulting — info@christopherqueenconsulting.com" src="https://img.shields.io/badge/Email-info%40christopherqueenconsulting.com-a89816?style=flat-square"></a>
+  <a href="https://www.linkedin.com/company/christopherqueenconsulting/"><img alt="Christopher Queen Consulting on LinkedIn" src="https://img.shields.io/badge/LinkedIn-Christopher%20Queen%20Consulting-a89816?style=flat-square"></a>
+  <a href="https://x.com/ConsultChrisQ"><img alt="Christopher Queen Consulting on X (@ConsultChrisQ)" src="https://img.shields.io/badge/X-%40ConsultChrisQ-a89816?style=flat-square"></a>
+</p>
 
-**Christopher Queen Consulting** is a forward-thinking AI Business Consulting firm on a mission to revolutionize industries through the power of artificial intelligence. Our core objective is to empower businesses by delivering innovative, AI-driven solutions that enhance growth, efficiency, and overall impact in today’s digital era.
+> **Have an AI project that needs to ship?** [Start a project inquiry](https://christopherqueenconsulting.com/pre-consultation-survey/?utm_source=github&utm_medium=org_profile) or email [info@christopherqueenconsulting.com](mailto:info@christopherqueenconsulting.com?subject=Project%20inquiry%20via%20GitHub).
 
-We focus on:
-- **AI Strategy & Implementation**: Providing tailored AI solutions that address specific business challenges.
-- **Data Analytics & AI Governance**: Ensuring ethical AI practices with a focus on transparency, fairness, and privacy.
-- **E-commerce Excellence**: Specialized in Magento and other advanced technologies to elevate e-commerce platforms.
+## What we do
 
-## Featured Projects
+- **Forward-Deployed AI Delivery** — Embedded engineering from discovery through production.
+  Turn an ambiguous problem into a shipped AI system, then hand it off with enablement so your team can run it. *Evidence: [cpcc_task_automation](https://github.com/christopherqueenconsulting/cpcc_task_automation), built for college instructors at Central Piedmont Community College.*
+- **Applied AI Engineering (LLM · RAG · Agents)** — Custom LLM systems integrated cleanly into your stack.
+  Includes the data pipelines and retrieval layers that feed them reliable context. *Evidence: [linkedin_engagement_manager](https://github.com/christopherqueenconsulting/linkedin_engagement_manager).*
+- **AI Evaluations & Governance** — Eval harnesses, red-teaming, guardrails, and monitoring.
+  Measure quality, safety, and regressions before and after anything ships — practical governance that doesn't slow delivery. *Evidence: [casinoai](https://github.com/gitchrisqueen/casinoai), an open evaluation harness testing LLM-agent conformance against a deterministic oracle (founder R&D).*
 
-### 1. [AI Solutions Sorcerer](link_to_repo)
-Custom AI solutions designed to meet the unique needs of businesses, driving efficiency, growth, and innovation.
-- **Technologies**: Python, TensorFlow, Data Analytics
+## Featured work
 
-### 2. [AI Ethics Guardian](link_to_repo)
-Dedicated to safeguarding ethical AI practices throughout project lifecycles.
-- **Technologies**: Python, Compliance Tools, Ethical AI Frameworks
+**[cpcc_task_automation](https://github.com/christopherqueenconsulting/cpcc_task_automation)** — A generative-AI platform (Streamlit, LangChain, ChromaDB, OpenAI models) built for college instructors to automate attendance tracking, project feedback, and exam grading — turning 5–10 hours of weekly administrative work into about 15 minutes.
 
-### 3. [E-commerce Dominator](link_to_repo)
-Comprehensive e-commerce consulting and development, leveraging Magento expertise to enhance platform functionality.
-- **Technologies**: Magento, PHP, JavaScript
+**[linkedin_engagement_manager](https://github.com/christopherqueenconsulting/linkedin_engagement_manager)** — The LinkedIn content and engagement platform behind CQC's own LinkedIn presence: AI-generated content, scheduling and approval workflows, and analytics. FastAPI + React with Celery/Redis task orchestration, LiteLLM multi-provider routing, Docker deployment, CI-enforced test coverage, and CodeQL security scanning. MIT-licensed.
 
-### 4. [Data Whisperer](link_to_repo)
-Unlocking the power of data through advanced analytics, transforming complex data into actionable intelligence.
-- **Technologies**: Data Analytics, Visualization Tools
+**[casinoai](https://github.com/gitchrisqueen/casinoai)** — Founder R&D in LLM-agent evaluation: extracts playing strategies from PDFs, tests agent conformance against a deterministic oracle, and backtests with Monte Carlo simulation across OpenAI, Anthropic, and Ollama models.
 
-### 5. [Expectation Exceeder](link_to_repo)
-Going above and beyond to deliver solutions that businesses need, often before they realize the need themselves.
-- **Technologies**: Various custom and open-source tools
+**Open-source contributions** — Upstream contributions accepted into LangChain (agent tool-input parser), mem0, PostHog, Google Workspace MCP, and OpenClaw. We build on these frameworks for clients, so we contribute fixes back upstream. More open-source work at [Christopher Queen's personal GitHub](https://github.com/gitchrisqueen).
 
-## Getting Started
+## How we work
 
-### How to Join
-Interested in joining **Christopher Queen Consulting**? We're always on the lookout for passionate individuals who share our vision of AI-driven innovation. Reach out to us at [info@christopherqueenconsulting.com](mailto:info@christopherqueenconsulting.com) to start the conversation.
+1. **Discover** — Pinpoint where AI drives measurable efficiency, growth, or cost reduction in your business.
+2. **Build** — Ship a working system integrated with your stack, not a slide deck.
+3. **Evaluate** — Prove quality and safety with automated evals and red-teaming before launch.
+4. **Deploy** — Production-grade rollout with monitoring and guardrails.
+5. **Support** — Ongoing iteration, plus enablement and handoff so your team owns what was delivered.
 
-### Documentation
-- Find all necessary documentation in our [Docs Repository](link_to_docs).
-- Need help? Join our Slack community or drop us a line.
+## About Christopher Queen
 
-### Communication Channels
-- **Discord**: [Join Our Discord](https://discord.gg/jC5mF8pa)
+Christopher Queen holds an MS and BS in Computer Science from Hampton University and is Scrum Master Certified (SMC). He has also built async trading and market-data infrastructure and real-time systems where correctness and latency matter — the engineering foundation that makes the AI work production-grade.
 
-## Contributing Guidelines
+From 2017 to 2023, the practice centered on senior Magento/e-commerce engineering, with Christopher — a Magento Certified Developer PLUS — building and maintaining commerce platforms for private- and public-sector clients, including Fortune 500 companies. Since then, the focus is applied AI delivery.
 
-We welcome contributions from the community and believe in the power of collaboration. Please take a moment to review our [CONTRIBUTING.md](link_to_contributing.md) before making your first pull request.
+## FAQ
 
-### How to Contribute:
-1. Fork this repository
-2. Create a new branch (`git checkout -b new-feature`)
-3. Commit your changes (`git commit -m 'Describe your feature'`)
-4. Push your branch (`git push origin new-feature`)
-5. Submit a Pull Request
+### What does Christopher Queen Consulting do?
 
-### Coding Standards
-We follow strict coding conventions to maintain the quality of our projects. Please refer to our [Coding Standards](link_to_coding_standards) for more information.
+Christopher Queen Consulting designs, builds, and ships production AI systems — LLM applications, retrieval-augmented generation (RAG), and autonomous agents — plus the evaluation and governance infrastructure to keep them reliable. AI consulting engagements run from scoped builds to embedded forward-deployed delivery.
 
-### Reporting Issues
-Encountered a bug? Have a feature request? Let us know through our [Issue Tracker](link_to_issue_tracker).
+### Who is Christopher Queen?
 
-## Community and Support
+Christopher Queen is the founder and principal engineer of Christopher Queen Consulting, an applied AI engineering consultancy in Jacksonville, Florida. He holds an MS and BS in Computer Science from Hampton University, has 15+ years of full-stack engineering experience, and has upstream open-source contributions accepted into LangChain, mem0, and PostHog.
 
-Join the conversation and stay updated by following us on social media:
-- **LinkedIn**: [Christopher Queen Consulting on LI](https://www.linkedin.com/company/christopherqueenconsulting/)
-- **FaceBook**: [Christopher Queen Consulting](https://www.facebook.com/christopherqueenconsulting)
-- **Twitter**: [@ConsultChrisQ](https://twitter.com/consultchrisq)
-- **Stack Overflow**: Use the tag `christopher-queen-consulting` for related questions
+### Where is Christopher Queen Consulting located?
 
-## Leadership
+Christopher Queen Consulting is based in Jacksonville, Florida. Engagements are delivered remotely.
 
-- **Christopher Queen** - CEO & Lead AI Consultant [GitHub Profile](https://github.com/gitchrisqueen)
-- **Team Members**: [Meet Our Team](link_to_team_profiles)
+### How do I start an engagement with Christopher Queen Consulting?
 
-## License
+To start an engagement with Christopher Queen Consulting, fill out the [pre-consultation survey](https://christopherqueenconsulting.com/pre-consultation-survey/?utm_source=github&utm_medium=org_profile) or email [info@christopherqueenconsulting.com](mailto:info@christopherqueenconsulting.com?subject=Project%20inquiry%20via%20GitHub). You'll talk directly with the engineer who will build your system.
 
-All our projects are released under the [MIT License](link_to_license).
+---
 
-## Call to Action
-
-We’re on a journey to transform industries through AI. Whether you’re a seasoned developer, a business leader, or simply passionate about AI, we invite you to [Get Involved](link_to_get_involved) and be part of our innovative community.
-
+<p align="center">
+  <a href="https://christopherqueenconsulting.com/pre-consultation-survey/?utm_source=github&utm_medium=org_profile"><b>Start a project inquiry</b></a> ·
+  <a href="mailto:info@christopherqueenconsulting.com?subject=Project%20inquiry%20via%20GitHub">info@christopherqueenconsulting.com</a> ·
+  <a href="https://www.linkedin.com/company/christopherqueenconsulting/">LinkedIn</a>
+</p>
+<p align="center">Jacksonville, Florida · <a href="https://christopherqueenconsulting.com/?utm_source=github&utm_medium=org_profile">christopherqueenconsulting.com</a></p>
