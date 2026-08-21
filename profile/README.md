@@ -1,4 +1,4 @@
-<p align="center"><a href="https://www.christopherqueenconsulting.com/?utm_source=github&utm_medium=org_profile">
+<p align="center"><a href="https://christopherqueenconsulting.com/?utm_source=github&utm_medium=org_profile">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/banner-dark.svg">
   <img alt="Christopher Queen Consulting — Applied AI Engineering: LLM, RAG, and Agent Systems" src="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/banner-light.svg" width="830" height="208">
@@ -10,18 +10,18 @@
 **Christopher Queen Consulting is an independent applied AI engineering consultancy in Jacksonville, Florida, that designs, builds, and ships production LLM, RAG, and agent systems — with the evaluation harnesses and governance to prove they work.** Principal-led since 2017: you work directly with Christopher Queen, an engineer with 15+ years of full-stack experience (Python, TypeScript, AWS) who ships the system himself.
 
 <p align="center">
-  <a href="https://www.christopherqueenconsulting.com/?utm_source=github&utm_medium=org_profile"><img alt="Christopher Queen Consulting website — christopherqueenconsulting.com" src="https://img.shields.io/badge/Website-christopherqueenconsulting.com-a89816?style=flat-square"></a>
+  <a href="https://christopherqueenconsulting.com/?utm_source=github&utm_medium=org_profile"><img alt="Christopher Queen Consulting website — christopherqueenconsulting.com" src="https://img.shields.io/badge/Website-christopherqueenconsulting.com-a89816?style=flat-square"></a>
   <a href="mailto:info@christopherqueenconsulting.com?subject=Project%20inquiry%20via%20GitHub"><img alt="Email Christopher Queen Consulting — info@christopherqueenconsulting.com" src="https://img.shields.io/badge/Email-info%40christopherqueenconsulting.com-a89816?style=flat-square"></a>
   <a href="https://www.linkedin.com/company/christopherqueenconsulting/"><img alt="Christopher Queen Consulting on LinkedIn" src="https://img.shields.io/badge/LinkedIn-Christopher%20Queen%20Consulting-a89816?style=flat-square"></a>
   <a href="https://x.com/ConsultChrisQ"><img alt="Christopher Queen Consulting on X (@ConsultChrisQ)" src="https://img.shields.io/badge/X-%40ConsultChrisQ-a89816?style=flat-square"></a>
 </p>
 
-> **Have an AI project that needs to ship?** [Start a project inquiry](https://www.christopherqueenconsulting.com/pre-consultation-survey/?utm_source=github&utm_medium=org_profile) or email [info@christopherqueenconsulting.com](mailto:info@christopherqueenconsulting.com?subject=Project%20inquiry%20via%20GitHub).
+> **Have an AI project that needs to ship?** [Start a project inquiry](https://christopherqueenconsulting.com/pre-consultation-survey/?utm_source=github&utm_medium=org_profile) or email [info@christopherqueenconsulting.com](mailto:info@christopherqueenconsulting.com?subject=Project%20inquiry%20via%20GitHub).
 
 ## What we do
 
 - **Forward-Deployed AI Delivery** — Embedded engineering from discovery through production.
-  Turn an ambiguous problem into a shipped AI system, then hand it off with enablement so your team can run it. *Evidence: [cpcc_task_automation](https://github.com/christopherqueenconsulting/cpcc_task_automation), built for college instructors at Central Piedmont Community College — [try the live task-automation demo](https://cpcc-task-automation.streamlit.app).*
+  Turn an ambiguous problem into a shipped AI system, then hand it off with enablement so your team can run it. *Evidence: [cpcc_task_automation](https://github.com/christopherqueenconsulting/cpcc_task_automation), built for college instructors at Central Piedmont Community College.*
 - **Applied AI Engineering (LLM · RAG · Agents)** — Custom LLM systems integrated cleanly into your stack.
   Includes the data pipelines and retrieval layers that feed them reliable context. *Evidence: [linkedin_engagement_manager](https://github.com/christopherqueenconsulting/linkedin_engagement_manager).*
 - **AI Evaluations & Governance** — Eval harnesses, red-teaming, guardrails, and monitoring.
@@ -29,7 +29,7 @@
 
 ## Featured work
 
-**[cpcc_task_automation](https://github.com/christopherqueenconsulting/cpcc_task_automation)** — A generative-AI platform (Streamlit, LangChain, ChromaDB, OpenAI models) built for college instructors to automate attendance tracking, project feedback, and exam grading — turning 5–10 hours of weekly administrative work into about 15 minutes. [Try the live demo](https://cpcc-task-automation.streamlit.app).
+**[cpcc_task_automation](https://github.com/christopherqueenconsulting/cpcc_task_automation)** — A generative-AI platform (Streamlit, LangChain, ChromaDB, OpenAI models) built for college instructors to automate attendance tracking, project feedback, and exam grading — turning 5–10 hours of weekly administrative work into about 15 minutes.
 
 **[linkedin_engagement_manager](https://github.com/christopherqueenconsulting/linkedin_engagement_manager)** — The LinkedIn content and engagement platform behind CQC's own LinkedIn presence: AI-generated content, scheduling and approval workflows, and analytics. FastAPI + React with Celery/Redis task orchestration, LiteLLM multi-provider routing, Docker deployment, CI-enforced test coverage, and CodeQL security scanning. MIT-licensed.
 
@@ -67,13 +67,13 @@ Christopher Queen Consulting is based in Jacksonville, Florida. Engagements are 
 
 ### How do I start an engagement with Christopher Queen Consulting?
 
-To start an engagement with Christopher Queen Consulting, fill out the [pre-consultation survey](https://www.christopherqueenconsulting.com/pre-consultation-survey/?utm_source=github&utm_medium=org_profile) or email [info@christopherqueenconsulting.com](mailto:info@christopherqueenconsulting.com?subject=Project%20inquiry%20via%20GitHub). You'll talk directly with the engineer who will build your system.
+To start an engagement with Christopher Queen Consulting, fill out the [pre-consultation survey](https://christopherqueenconsulting.com/pre-consultation-survey/?utm_source=github&utm_medium=org_profile) or email [info@christopherqueenconsulting.com](mailto:info@christopherqueenconsulting.com?subject=Project%20inquiry%20via%20GitHub). You'll talk directly with the engineer who will build your system.
 
 ---
 
 <p align="center">
-  <a href="https://www.christopherqueenconsulting.com/pre-consultation-survey/?utm_source=github&utm_medium=org_profile"><b>Start a project inquiry</b></a> ·
+  <a href="https://christopherqueenconsulting.com/pre-consultation-survey/?utm_source=github&utm_medium=org_profile"><b>Start a project inquiry</b></a> ·
   <a href="mailto:info@christopherqueenconsulting.com?subject=Project%20inquiry%20via%20GitHub">info@christopherqueenconsulting.com</a> ·
   <a href="https://www.linkedin.com/company/christopherqueenconsulting/">LinkedIn</a>
 </p>
-<p align="center">Jacksonville, Florida · <a href="https://www.christopherqueenconsulting.com/?utm_source=github&utm_medium=org_profile">christopherqueenconsulting.com</a></p>
+<p align="center">Jacksonville, Florida · <a href="https://christopherqueenconsulting.com/?utm_source=github&utm_medium=org_profile">christopherqueenconsulting.com</a></p>
