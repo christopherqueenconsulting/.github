@@ -30,5 +30,7 @@
   ],
   "styled": true,
   "complete": true,
-  "blocked_hosts": []
+  "blocked_hosts": [
+    "raw.githubusercontent.com"
+  ]
 }
