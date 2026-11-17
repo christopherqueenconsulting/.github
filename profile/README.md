@@ -1,11 +1,11 @@
 <a href="https://christopherqueenconsulting.com/?utm_source=github&utm_medium=org_profile">
 <picture>
-  <source media="(max-width: 760px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/hero-phone-dark.svg">
-  <source media="(max-width: 760px)" srcset="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/hero-phone-light.svg">
-  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/hero-dark-static.svg">
-  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/hero-light-static.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/hero-dark.svg">
-  <img alt="Christopher Queen Consulting home page. Applied AI that holds up in production. A timeline drawn to scale: a one-week audit for $1,500, then days 1 to 30 of a build priced in a written spec ($5,000 for the sample scope), then a written hand-off of the code and evals on day 31." src="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/hero-light.svg" width="100%">
+  <source media="(max-width: 760px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/christopherqueenconsulting/.github/feat/org-profile-redesign/profile/assets/hero-phone-dark.svg">
+  <source media="(max-width: 760px)" srcset="https://raw.githubusercontent.com/christopherqueenconsulting/.github/feat/org-profile-redesign/profile/assets/hero-phone-light.svg">
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/christopherqueenconsulting/.github/feat/org-profile-redesign/profile/assets/hero-dark-static.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/christopherqueenconsulting/.github/feat/org-profile-redesign/profile/assets/hero-light-static.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/christopherqueenconsulting/.github/feat/org-profile-redesign/profile/assets/hero-dark.svg">
+  <img alt="Christopher Queen Consulting home page. Applied AI that holds up in production. A timeline drawn to scale: a one-week audit for $1,500, then days 1 to 30 of a build priced in a written spec ($5,000 for the sample scope), then a written hand-off of the code and evals on day 31." src="https://raw.githubusercontent.com/christopherqueenconsulting/.github/feat/org-profile-redesign/profile/assets/hero-light.svg" width="100%">
 </picture>
 </a>
 
