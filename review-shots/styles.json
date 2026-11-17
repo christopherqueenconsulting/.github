@@ -38,7 +38,7 @@
       "-apple-system"
     ],
     "body_px": "16px",
-    "longest_paragraph_chars_est": 50,
+    "longest_paragraph_chars_est": 45,
     "longest_line_in_closed_details_chars": 52
   },
   "phone-dark": {
@@ -52,7 +52,7 @@
       "-apple-system"
     ],
     "body_px": "16px",
-    "longest_paragraph_chars_est": 50,
+    "longest_paragraph_chars_est": 45,
     "longest_line_in_closed_details_chars": 52
   }
 }
