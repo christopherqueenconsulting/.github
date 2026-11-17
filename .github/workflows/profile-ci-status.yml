@@ -1,0 +1,34 @@
+# Refreshes the live CI table on the org profile (profile/README.md).
+# Weekday mornings only: the table is a buyer-facing snapshot, and weekends add nothing.
+# Commits only when the table changed. Public repo, standard runner: no billed minutes.
+name: Profile CI status
+
+on:
+  schedule:
+    - cron: "17 11 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+      - name: Rewrite the CI block
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 scripts/update_ci_status.py profile/README.md
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/README.md
+          git diff --cached --quiet || git commit -m "chore(profile): refresh CI status"
+          git push

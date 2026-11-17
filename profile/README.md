@@ -1,79 +1,80 @@
-<p align="center"><a href="https://christopherqueenconsulting.com/?utm_source=github&utm_medium=org_profile">
+<a href="https://christopherqueenconsulting.com/?utm_source=github&utm_medium=org_profile">
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/banner-dark.svg">
-  <img alt="Christopher Queen Consulting — Applied AI Engineering: LLM, RAG, and Agent Systems" src="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/banner-light.svg" width="830" height="208">
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/hero-phone-dark.svg">
+  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/hero-phone-light.svg">
+  <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/hero-dark-static.svg">
+  <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/hero-light-static.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/hero-dark.svg">
+  <img alt="Applied AI that holds up in production. For engineering leaders and seed to Series B founders shipping LLM, RAG and agent features without an ML team. Drawn as a timeline to scale: a one-week audit for $1,500, then a 30-day build priced in a written spec (the sample scope is $5,000), then on day 31 a hand-off of the code, evals and runbook." src="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/hero-light.svg" width="100%">
 </picture>
-</a></p>
+</a>
 
-# Christopher Queen Consulting — Applied AI Engineering & AI Consulting
+**Christopher Queen Consulting builds LLM, RAG and agent features that keep working after launch, and puts the checks that prove it in your repo.** It is one engineer, Christopher Queen, based in Jacksonville, Florida, working remotely. The person you talk to is the person who writes the code.
 
-**Christopher Queen Consulting is an independent applied AI engineering consultancy in Jacksonville, Florida, that designs, builds, and ships production LLM, RAG, and agent systems — with the evaluation harnesses and governance to prove they work.** Principal-led since 2017: you work directly with Christopher Queen, an engineer with 15+ years of full-stack experience (Python, TypeScript, AWS) who ships the system himself.
+**[Book a free 30-minute call](https://christopherqueenconsulting.com/schedule/?utm_source=github&utm_medium=org_profile)**, or read about [the audit](https://christopherqueenconsulting.com/ai-ops-audit/?utm_source=github&utm_medium=org_profile) and [the 30-day build](https://build.christopherqueenconsulting.com/?utm_source=github&utm_medium=org_profile).
 
-<p align="center">
-  <a href="https://christopherqueenconsulting.com/?utm_source=github&utm_medium=org_profile"><img alt="Christopher Queen Consulting website — christopherqueenconsulting.com" src="https://img.shields.io/badge/Website-christopherqueenconsulting.com-a89816?style=flat-square"></a>
-  <a href="mailto:info@christopherqueenconsulting.com?subject=Project%20inquiry%20via%20GitHub"><img alt="Email Christopher Queen Consulting — info@christopherqueenconsulting.com" src="https://img.shields.io/badge/Email-info%40christopherqueenconsulting.com-a89816?style=flat-square"></a>
-  <a href="https://www.linkedin.com/company/christopherqueenconsulting/"><img alt="Christopher Queen Consulting on LinkedIn" src="https://img.shields.io/badge/LinkedIn-Christopher%20Queen%20Consulting-a89816?style=flat-square"></a>
-  <a href="https://x.com/ConsultChrisQ"><img alt="Christopher Queen Consulting on X (@ConsultChrisQ)" src="https://img.shields.io/badge/X-%40ConsultChrisQ-a89816?style=flat-square"></a>
-</p>
+## Two ways to start
 
-> **Have an AI project that needs to ship?** [Start a project inquiry](https://christopherqueenconsulting.com/pre-consultation-survey/?utm_source=github&utm_medium=org_profile) or email [info@christopherqueenconsulting.com](mailto:info@christopherqueenconsulting.com?subject=Project%20inquiry%20via%20GitHub).
+| | The audit | The 30-day build |
+| --- | --- | --- |
+| **What it is** | Your LLM spend and failures, traced and graded | One working system, built in your repo |
+| **How long** | One week | 30 days, with the hand-off on day 31 |
+| **Price** | $1,500, fixed | Fixed in a written spec before the clock starts; the sample scope (an agent eval harness) is $5,000 |
+| **You get** | A scorecard grading five areas A to F, an 8 to 12 page report with a costed fix list, and a readout call | Working software committed as it is built, then a written hand-off to whoever you hire |
+| **You keep** | The fix list, written so your team can act on it without CQC | The code (assigned to you), the evals and the runbook |
 
-## What we do
+The audit works from read-only access to your LLM logs and bills, under your NDA. If the scope of a build changes, a new spec is written rather than an invoice sent mid-build.
 
-- **Forward-Deployed AI Delivery** — Embedded engineering from discovery through production.
-  Turn an ambiguous problem into a shipped AI system, then hand it off with enablement so your team can run it. *Evidence: [cpcc_task_automation](https://github.com/christopherqueenconsulting/cpcc_task_automation), built for Christopher's own courses at Central Piedmont Community College.*
-- **Applied AI Engineering (LLM · RAG · Agents)** — Custom LLM systems integrated cleanly into your stack.
-  Includes the data pipelines and retrieval layers that feed them reliable context. *Evidence: [linkedin_engagement_manager](https://github.com/christopherqueenconsulting/linkedin_engagement_manager).*
-- **AI Evaluations & Governance** — Eval harnesses, red-teaming, guardrails, and monitoring.
-  Measure quality, safety, and regressions before and after anything ships — practical governance that doesn't slow delivery. *Evidence: [casinoai](https://github.com/gitchrisqueen/casinoai), an open evaluation harness testing LLM-agent conformance against a deterministic oracle (founder R&D).*
+## Where LLM features break, and the check that catches it
 
-## Featured work
+Each row is a check running in a public repo today. The numbers come with their limits.
 
-**[cpcc_task_automation](https://github.com/christopherqueenconsulting/cpcc_task_automation)** — A generative-AI platform (Streamlit, LangChain, ChromaDB, OpenAI models) built for Christopher's own courses to automate attendance tracking, project feedback, and exam grading, with a compiler check that overrules the model on code submissions.
+| What goes wrong | The check | Where | What it shows, and its limits |
+| --- | --- | --- | --- |
+| A model's verdict counts with no hard check behind it | A real compiler decides "does not compile" before the model's score counts. If the compiler cannot run, the verdict is "cannot verify", never a fail. | [CPCC Task Automation #267](https://github.com/christopherqueenconsulting/cpcc_task_automation/pull/267) | One false verdict had floored a whole grade. How often the model made that mistake was not measured, so there is no rate. |
+| A release waits undeployed and nobody is told | Database changes with a safe, additive shape ship on their own; anything else holds and opens an issue. An hourly check alerts when a release has waited more than 3 hours. | [LinkedIn Engagement Manager #2194](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/pull/2194) | Of 134 past migrations, 102 would have shipped on their own and 32 would have held, each with a named reason (68 classifier tests; count as of that pull request). |
+| A scheduled job runs green and produces nothing | A daily health check scores each finished day and opens an issue for a dead one. | [Panthera #66](https://github.com/gitchrisqueen/panthera/pull/66) (founder repo) | It flags a dead day the next morning, about 26 hours later at the earliest. Its threshold was measured on past data, not held out. |
+| A prompt or model change makes answers quietly worse | Prompt evals grade changed prompts, datasets and models against fixed floors. | [LEM prompt evals](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/blob/main/docs/prompt-evals.md), [CPCC prompt evaluation](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/workflows/prompt-eval.yml) | Results are in each repo's workflow runs, below. |
+| Spend nobody can explain | Cost per successful call, traced by task, graded in the audit. | [The audit](https://christopherqueenconsulting.com/ai-ops-audit/?utm_source=github&utm_medium=org_profile) | A method, not a claimed saving. The scorecard on that page is a labelled sample. |
 
-**[linkedin_engagement_manager](https://github.com/christopherqueenconsulting/linkedin_engagement_manager)** — The LinkedIn content and engagement platform behind CQC's own LinkedIn presence: AI-generated content, scheduling and approval workflows, and analytics. FastAPI + React with Celery/Redis task orchestration, LiteLLM multi-provider routing, Docker deployment, CI-enforced test coverage, and CodeQL security scanning. MIT-licensed.
+## Code you can read
 
-**[casinoai](https://github.com/gitchrisqueen/casinoai)** — Founder R&D in LLM-agent evaluation: extracts playing strategies from PDFs, tests agent conformance against a deterministic oracle, and backtests with Monte Carlo simulation across OpenAI, Anthropic, and Ollama models.
+- **[linkedin_engagement_manager](https://github.com/christopherqueenconsulting/linkedin_engagement_manager)**: a live web app for LinkedIn content and engagement (FastAPI, Celery, Redis, MySQL, React, Docker). Deployed and CI-gated; no revenue.
+- **[cpcc_task_automation](https://github.com/christopherqueenconsulting/cpcc_task_automation)**: grading and admin automation that Christopher built for his own college courses. Grades go back as drafts where the platform allows one, for a person to publish. He is its only user.
+- **[cqc](https://github.com/gitchrisqueen/cqc)** (founder repo): a small command-line tool that serves these checks as MCP tools.
+- **[litellm-complexity-router](https://github.com/gitchrisqueen/litellm-complexity-router)** (founder repo): a public extract of a model router that scores a prompt and picks a model tier, with evals and a labelled 120-row set.
 
-**Open-source contributions** — Merged upstream fixes in [LangChain](https://github.com/langchain-ai/langchain/pull/15251) (dev container build), [PostHog's OpenClaw plugin](https://github.com/PostHog/posthog-openclaw/pull/35), [Google Workspace MCP](https://github.com/taylorwilsdon/google_workspace_mcp/pull/644), [lossless-claw](https://github.com/Martian-Engineering/lossless-claw/pull/418), and [Future AGI](https://github.com/future-agi/future-agi/pull/1327). We build on these tools, so we contribute fixes back upstream. More open-source work at [Christopher Queen's personal GitHub](https://github.com/gitchrisqueen).
+The table below is refreshed every weekday morning from each workflow's latest run on its default branch.
 
-## How we work
+<!-- CI-STATUS:START -->
+| Project | Check | Runs | Latest result |
+| --- | --- | --- | --- |
+| LEM | [Unit tests](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/workflows/unit-tests.yml) | every change | [passed, 2026-11-17](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/runs/44137889679) |
+| LEM | [Deploy drift check](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/workflows/deploy-drift-check.yml) | hourly: live version against published releases | [passed, 2026-11-17](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/runs/44137161396) |
+| LEM | [Prompt evals](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/workflows/prompt-evals.yml) | weekly: grades changed prompts, datasets and models | [passed, 2026-11-16](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/runs/43802015461) |
+| CPCC | [Test suite](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/workflows/unit-tests.yml) | every change | [passed, 2026-11-17](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/runs/44131169358) |
+| CPCC | [Prompt evaluation](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/workflows/prompt-eval.yml) | every change to prompts | [passed, 2026-11-17](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/runs/44131169955) |
+| CPCC | [PII guard](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/workflows/pii-guard.yml) | every change: blocks personal data in the repo | [passed, 2026-11-17](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/runs/44131168894) |
+<!-- CI-STATUS:END -->
 
-1. **Discover** — Pinpoint where AI drives measurable efficiency, growth, or cost reduction in your business.
-2. **Build** — Ship a working system integrated with your stack, not a slide deck.
-3. **Evaluate** — Prove quality and safety with automated evals and red-teaming before launch.
-4. **Deploy** — Production-grade rollout with monitoring and guardrails.
-5. **Support** — Ongoing iteration, plus enablement and handoff so your team owns what was delivered.
+## What working with CQC looks like
 
-## About Christopher Queen
+- **The code is yours from the first commit.** It lives in your repo, and the build agreement assigns it to you.
+- **Your team can carry on alone.** Evals, a runbook and a written hand-off come with it, so your engineers can add the next case without CQC.
+- **Your data stays scoped.** Access is read-only and limited to what the intake names. Working copies are deleted within 30 days of the audit readout.
+- **No inflated proof.** CQC has no published client engagement yet. The build page says so: the first client at its price is the reason for the price.
+- **Not a fit:** companies not yet running LLMs in production, and teams that want slides instead of a system.
 
-Christopher Queen holds an MS and BS in Computer Science from Hampton University and is Scrum Master Certified (SMC). He has also built async trading and market-data infrastructure and real-time systems where correctness and latency matter — the engineering foundation that makes the AI work production-grade.
+## Fixes merged upstream
 
-From 2017 to 2023, the practice centered on senior Magento/e-commerce engineering, with Christopher — a Magento Certified Developer PLUS — building and maintaining commerce platforms for private- and public-sector clients. Since then, the focus is applied AI delivery.
+Small fixes to tools CQC builds on, merged by each project's maintainers:
 
-## FAQ
-
-### What does Christopher Queen Consulting do?
-
-Christopher Queen Consulting designs, builds, and ships production AI systems — LLM applications, retrieval-augmented generation (RAG), and autonomous agents — plus the evaluation and governance infrastructure to keep them reliable. AI consulting engagements run from scoped builds to embedded forward-deployed delivery.
-
-### Who is Christopher Queen?
-
-Christopher Queen is the founder and principal engineer of Christopher Queen Consulting, an applied AI engineering consultancy in Jacksonville, Florida. He holds an MS and BS in Computer Science from Hampton University, has 15+ years of full-stack engineering experience, and has merged upstream fixes in LangChain, Google Workspace MCP, and PostHog's OpenClaw plugin.
-
-### Where is Christopher Queen Consulting located?
-
-Christopher Queen Consulting is based in Jacksonville, Florida. Engagements are delivered remotely.
-
-### How do I start an engagement with Christopher Queen Consulting?
-
-To start an engagement with Christopher Queen Consulting, fill out the [pre-consultation survey](https://christopherqueenconsulting.com/pre-consultation-survey/?utm_source=github&utm_medium=org_profile) or email [info@christopherqueenconsulting.com](mailto:info@christopherqueenconsulting.com?subject=Project%20inquiry%20via%20GitHub). You'll talk directly with the engineer who will build your system.
+- [langchain-ai/langchain #15251](https://github.com/langchain-ai/langchain/pull/15251): fixes the dev container build.
+- [PostHog/posthog-openclaw #15](https://github.com/PostHog/posthog-openclaw/pull/15) and [#35](https://github.com/PostHog/posthog-openclaw/pull/35): read the API key and host from environment variables when the config has none.
+- [taylorwilsdon/google_workspace_mcp #644](https://github.com/taylorwilsdon/google_workspace_mcp/pull/644): reads the Google account from an environment variable in single-user mode.
+- [Martian-Engineering/lossless-claw #418](https://github.com/Martian-Engineering/lossless-claw/pull/418): reports success for a manual compaction when the context is already under target.
+- [future-agi/future-agi #1327](https://github.com/future-agi/future-agi/pull/1327): makes the eval log's explanation panel scroll.
 
 ---
 
-<p align="center">
-  <a href="https://christopherqueenconsulting.com/pre-consultation-survey/?utm_source=github&utm_medium=org_profile"><b>Start a project inquiry</b></a> ·
-  <a href="mailto:info@christopherqueenconsulting.com?subject=Project%20inquiry%20via%20GitHub">info@christopherqueenconsulting.com</a> ·
-  <a href="https://www.linkedin.com/company/christopherqueenconsulting/">LinkedIn</a>
-</p>
-<p align="center">Jacksonville, Florida · <a href="https://christopherqueenconsulting.com/?utm_source=github&utm_medium=org_profile">christopherqueenconsulting.com</a></p>
+Jacksonville, Florida. Remote. [christopherqueenconsulting.com](https://christopherqueenconsulting.com/?utm_source=github&utm_medium=org_profile), [LinkedIn](https://www.linkedin.com/company/christopherqueenconsulting/), [info@christopherqueenconsulting.com](mailto:info@christopherqueenconsulting.com?subject=Project%20inquiry%20via%20GitHub). For AI assistants: [christopherqueenconsulting.com/for-agents](https://christopherqueenconsulting.com/for-agents/?utm_source=github&utm_medium=org_profile).
