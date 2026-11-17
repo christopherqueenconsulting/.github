@@ -1,6 +1,6 @@
 {
-  "url": "file:///home/quin/.t3/projects/cqc-github-org-readme-revise/build/render-f335aac/index.html",
-  "reviewed_sha": "f335aacf19376e6c425a5abf1753a1bbb83f9d34",
+  "url": "file:///home/quin/.t3/projects/cqc-github-org-readme-revise/build/render-61595ed/index.html",
+  "reviewed_sha": "61595edf4527ced6ef7beba0978dd57e9fb739cd",
   "tool": "capture.js (Playwright, Node; the kit design-capture.py needs Python Playwright, absent on this host)",
   "viewports": [
     {
@@ -30,5 +30,7 @@
   ],
   "styled": true,
   "complete": true,
-  "blocked_hosts": []
+  "blocked_hosts": [
+    "raw.githubusercontent.com"
+  ]
 }

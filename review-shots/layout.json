@@ -7,7 +7,7 @@
     "hero": {
       "rendered_width": 848,
       "rendered_height": 292,
-      "src": "https://raw.githubusercontent.com/christopherqueenconsulting/.github/feat/org-profile-v2-compact/profile/assets/hero-light.svg"
+      "src": "https://raw.githubusercontent.com/christopherqueenconsulting/.github/feat/org-profile-tabs/profile/assets/hero-light.svg"
     }
   },
   "desktop-dark": {
@@ -18,7 +18,7 @@
     "hero": {
       "rendered_width": 848,
       "rendered_height": 292,
-      "src": "https://raw.githubusercontent.com/christopherqueenconsulting/.github/feat/org-profile-v2-compact/profile/assets/hero-dark.svg"
+      "src": "https://raw.githubusercontent.com/christopherqueenconsulting/.github/feat/org-profile-tabs/profile/assets/hero-dark.svg"
     }
   },
   "phone-light": {
@@ -29,7 +29,7 @@
     "hero": {
       "rendered_width": 358,
       "rendered_height": 500,
-      "src": "https://raw.githubusercontent.com/christopherqueenconsulting/.github/feat/org-profile-v2-compact/profile/assets/hero-phone-light.svg"
+      "src": "https://raw.githubusercontent.com/christopherqueenconsulting/.github/feat/org-profile-tabs/profile/assets/hero-phone-light.svg"
     }
   },
   "phone-dark": {
@@ -40,7 +40,7 @@
     "hero": {
       "rendered_width": 358,
       "rendered_height": 500,
-      "src": "https://raw.githubusercontent.com/christopherqueenconsulting/.github/feat/org-profile-v2-compact/profile/assets/hero-phone-dark.svg"
+      "src": "https://raw.githubusercontent.com/christopherqueenconsulting/.github/feat/org-profile-tabs/profile/assets/hero-phone-dark.svg"
     }
   }
 }
