@@ -21,7 +21,7 @@
 ## What we do
 
 - **Forward-Deployed AI Delivery** — Embedded engineering from discovery through production.
-  Turn an ambiguous problem into a shipped AI system, then hand it off with enablement so your team can run it. *Evidence: [cpcc_task_automation](https://github.com/christopherqueenconsulting/cpcc_task_automation), built for college instructors at Central Piedmont Community College.*
+  Turn an ambiguous problem into a shipped AI system, then hand it off with enablement so your team can run it. *Evidence: [cpcc_task_automation](https://github.com/christopherqueenconsulting/cpcc_task_automation), built for Christopher's own courses at Central Piedmont Community College.*
 - **Applied AI Engineering (LLM · RAG · Agents)** — Custom LLM systems integrated cleanly into your stack.
   Includes the data pipelines and retrieval layers that feed them reliable context. *Evidence: [linkedin_engagement_manager](https://github.com/christopherqueenconsulting/linkedin_engagement_manager).*
 - **AI Evaluations & Governance** — Eval harnesses, red-teaming, guardrails, and monitoring.
@@ -29,13 +29,13 @@
 
 ## Featured work
 
-**[cpcc_task_automation](https://github.com/christopherqueenconsulting/cpcc_task_automation)** — A generative-AI platform (Streamlit, LangChain, ChromaDB, OpenAI models) built for college instructors to automate attendance tracking, project feedback, and exam grading — turning 5–10 hours of weekly administrative work into about 15 minutes.
+**[cpcc_task_automation](https://github.com/christopherqueenconsulting/cpcc_task_automation)** — A generative-AI platform (Streamlit, LangChain, ChromaDB, OpenAI models) built for Christopher's own courses to automate attendance tracking, project feedback, and exam grading, with a compiler check that overrules the model on code submissions.
 
 **[linkedin_engagement_manager](https://github.com/christopherqueenconsulting/linkedin_engagement_manager)** — The LinkedIn content and engagement platform behind CQC's own LinkedIn presence: AI-generated content, scheduling and approval workflows, and analytics. FastAPI + React with Celery/Redis task orchestration, LiteLLM multi-provider routing, Docker deployment, CI-enforced test coverage, and CodeQL security scanning. MIT-licensed.
 
 **[casinoai](https://github.com/gitchrisqueen/casinoai)** — Founder R&D in LLM-agent evaluation: extracts playing strategies from PDFs, tests agent conformance against a deterministic oracle, and backtests with Monte Carlo simulation across OpenAI, Anthropic, and Ollama models.
 
-**Open-source contributions** — Upstream contributions accepted into LangChain (agent tool-input parser), mem0, PostHog, Google Workspace MCP, and OpenClaw. We build on these frameworks for clients, so we contribute fixes back upstream. More open-source work at [Christopher Queen's personal GitHub](https://github.com/gitchrisqueen).
+**Open-source contributions** — Merged upstream fixes in [LangChain](https://github.com/langchain-ai/langchain/pull/15251) (dev container build), [PostHog's OpenClaw plugin](https://github.com/PostHog/posthog-openclaw/pull/35), [Google Workspace MCP](https://github.com/taylorwilsdon/google_workspace_mcp/pull/644), [lossless-claw](https://github.com/Martian-Engineering/lossless-claw/pull/418), and [Future AGI](https://github.com/future-agi/future-agi/pull/1327). We build on these tools, so we contribute fixes back upstream. More open-source work at [Christopher Queen's personal GitHub](https://github.com/gitchrisqueen).
 
 ## How we work
 
@@ -49,7 +49,7 @@
 
 Christopher Queen holds an MS and BS in Computer Science from Hampton University and is Scrum Master Certified (SMC). He has also built async trading and market-data infrastructure and real-time systems where correctness and latency matter — the engineering foundation that makes the AI work production-grade.
 
-From 2017 to 2023, the practice centered on senior Magento/e-commerce engineering, with Christopher — a Magento Certified Developer PLUS — building and maintaining commerce platforms for private- and public-sector clients, including Fortune 500 companies. Since then, the focus is applied AI delivery.
+From 2017 to 2023, the practice centered on senior Magento/e-commerce engineering, with Christopher — a Magento Certified Developer PLUS — building and maintaining commerce platforms for private- and public-sector clients. Since then, the focus is applied AI delivery.
 
 ## FAQ
 
@@ -59,7 +59,7 @@ Christopher Queen Consulting designs, builds, and ships production AI systems �
 
 ### Who is Christopher Queen?
 
-Christopher Queen is the founder and principal engineer of Christopher Queen Consulting, an applied AI engineering consultancy in Jacksonville, Florida. He holds an MS and BS in Computer Science from Hampton University, has 15+ years of full-stack engineering experience, and has upstream open-source contributions accepted into LangChain, mem0, and PostHog.
+Christopher Queen is the founder and principal engineer of Christopher Queen Consulting, an applied AI engineering consultancy in Jacksonville, Florida. He holds an MS and BS in Computer Science from Hampton University, has 15+ years of full-stack engineering experience, and has merged upstream fixes in LangChain, Google Workspace MCP, and PostHog's OpenClaw plugin.
 
 ### Where is Christopher Queen Consulting located?
 
