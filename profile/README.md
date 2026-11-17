@@ -5,11 +5,11 @@
   <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/hero-dark-static.svg">
   <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/hero-light-static.svg">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/hero-dark.svg">
-  <img alt="Christopher Queen Consulting home page. Applied AI that holds up in production. A timeline drawn to scale: a one-week audit for $1,500, then days 1 to 30 of a build priced in a written spec ($5,000 for the sample scope), then a written hand-off of the code and evals on day 31." src="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/hero-light.svg" width="100%">
+  <img alt="Christopher Queen Consulting home page. Applied AI, with the checks in your repo. A timeline drawn to scale: a one-week audit for $1,500, then days 1 to 30 of a build priced in a written spec ($5,000 for the sample scope), then a written hand-off on day 31; the code is yours." src="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/hero-light.svg" width="100%">
 </picture>
 </a>
 
-**Christopher Queen Consulting (CQC) builds LLM, RAG and agent features that keep working after launch, and puts the checks that prove it in your repo.** It is for engineering leaders and seed to Series B founders who need these features without hiring an ML team. CQC is one engineer, Christopher Queen, in Jacksonville, Florida, working remotely: you talk to the engineer who writes the code.
+**Christopher Queen Consulting (CQC) builds LLM, RAG and agent features and puts the checks that catch their failures in your repo.** It is for engineering leaders and seed to Series B founders adding these features: hand-off, not headcount. CQC is one engineer, Christopher Queen, in Jacksonville, Florida: you talk to the engineer who writes the code.
 
 **[Book a free 30-minute call](https://christopherqueenconsulting.com/schedule/?utm_source=github&utm_medium=org_profile)**
 
@@ -29,27 +29,27 @@ Or read about [the audit](https://christopherqueenconsulting.com/ai-ops-audit/?u
 - **What it is:** one working system, built in your repo over 30 days.
 - **Price:** set in a written spec before day 1. The sample scope, an agent eval harness, is $5,000.
 - **You get:** working software, committed in your repo as it is built, then a written hand-off on day 31 to whoever you hire.
-- **You keep:** the code, which the agreement assigns to you, and the evals.
+- **You keep:** the code, which the agreement assigns to you.
 - **If the scope changes:** a new spec is written. No invoice arrives mid-build.
 
 ## Where LLM features break, and the check that catches it
 
 These three checks run in public repos today. Each number comes with its limits.
 
-**A model grades work, and no hard check backs the grade.** In [CPCC Task Automation #267](https://github.com/christopherqueenconsulting/cpcc_task_automation/pull/267), a real compiler now decides whether code compiles before the model's score counts. If the compiler cannot run, the result is "cannot verify", never a fail. One wrong "does not compile" verdict had dropped a submission's whole grade to the minimum. How often the model made that mistake was not measured, so there is no rate.
+**A model grades work, and no hard check backs the grade.** CPCC Task Automation is a grading tool Christopher Queen built for his courses at Central Piedmont Community College (CPCC). Since [pull request #267](https://github.com/christopherqueenconsulting/cpcc_task_automation/pull/267), a real compiler decides whether code compiles before the model's score counts. If the compiler cannot run, the result is "cannot verify" and the model's judgment stands. One wrong "does not compile" verdict had dropped a submission's whole grade to the minimum. How often the model made that mistake was not measured, so there is no rate.
 
-**A release waits undeployed, and nobody is told.** In [LinkedIn Engagement Manager #2194](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/pull/2194), a classifier sorts each database migration. Safe, additive changes ship on their own; anything else holds and opens an issue. An hourly check alerts when a release has waited more than 3 hours. Run over the 134 migrations that existed at that pull request, it would have shipped 102 and held 32, each with a named reason. The classifier has 68 tests.
+**A release waits undeployed, and nobody is told.** LinkedIn Engagement Manager (LEM) is a live web app. Since [pull request #2194](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/pull/2194), a classifier sorts each database migration. Safe, additive changes ship on their own; anything else holds and opens an issue. An hourly check alerts when a release has waited more than 3 hours. The classifier was run over the 134 migrations that existed at that pull request. It would have shipped 102 and held 32, each with a named reason. It has 68 tests.
 
-**A scheduled job runs green and produces nothing.** In [Panthera #66](https://github.com/gitchrisqueen/panthera/pull/66), a daily health check scores each finished day and opens an issue for a dead one. It flags a dead day the next morning, about 26 hours later at the earliest. Its threshold was set on past data, not held out.
+**A scheduled job runs green and produces nothing.** Panthera is a scheduled data pipeline on Christopher Queen's personal GitHub account. Since [pull request #66](https://github.com/gitchrisqueen/panthera/pull/66), a daily health check scores each finished day and opens an issue for a dead one. It flags a dead day the next morning, about 26 hours later at the earliest. Its threshold was set on past data, not held out.
 
 Sources and fuller caveats for all three: [the project write-ups](https://github.com/gitchrisqueen/gitchrisqueen/blob/main/docs/PROOF.md).
 
 ## Code you can read
 
-- **[LinkedIn Engagement Manager (LEM)](https://github.com/christopherqueenconsulting/linkedin_engagement_manager)**: a live web app for LinkedIn content and engagement (FastAPI, Celery, Redis, MySQL, React, Docker). Its write-up lists its limits: deployed and CI-gated, no revenue.
-- **[CPCC Task Automation (CPCC)](https://github.com/christopherqueenconsulting/cpcc_task_automation)**: grading and admin automation built by its author for his own college courses. Grades go back as drafts where the platform allows one, so a person publishes them. Its write-up says he is its only user.
+- **[LinkedIn Engagement Manager](https://github.com/christopherqueenconsulting/linkedin_engagement_manager)**: a live web app for LinkedIn content and engagement (FastAPI, Celery, Redis, MySQL, React, Docker). Its write-up lists its limits: deployed and CI-gated, no revenue.
+- **[CPCC Task Automation](https://github.com/christopherqueenconsulting/cpcc_task_automation)**: grading and admin automation built by Christopher Queen for his own college courses. Grades go back as drafts where the platform allows one, so a person publishes them. Its write-up says he is its only user.
 
-Two more live on the founder's personal GitHub account, as does Panthera above:
+Two more live on Christopher Queen's personal GitHub account:
 
 - **[cqc](https://github.com/gitchrisqueen/cqc)**: a small command-line tool that serves these checks as Model Context Protocol (MCP) tools.
 - **[litellm-complexity-router](https://github.com/gitchrisqueen/litellm-complexity-router)**: a public extract of a model router that scores a prompt and picks a model tier, with evals and a labelled 120-row set.
@@ -59,17 +59,17 @@ LEM runs its deploy drift check hourly and its prompt evals weekly. CPCC runs it
 <!-- CI-STATUS:START -->
 | Check | Latest result |
 | --- | --- |
-| [LEM unit tests](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/workflows/unit-tests.yml) | [passed, 2026-11-17](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/runs/44137889679) |
-| [LEM deploy drift check](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/workflows/deploy-drift-check.yml) | [passed, 2026-11-17](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/runs/44137161396) |
-| [LEM prompt evals](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/workflows/prompt-evals.yml) | [passed, 2026-11-16](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/runs/43802015461) |
-| [CPCC test suite](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/workflows/unit-tests.yml) | [passed, 2026-11-17](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/runs/44131169358) |
-| [CPCC prompt evaluation](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/workflows/prompt-eval.yml) | [passed, 2026-11-17](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/runs/44131169955) |
-| [CPCC PII guard](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/workflows/pii-guard.yml) | [passed, 2026-11-17](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/runs/44131168894) |
+| [LEM unit tests](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/workflows/unit-tests.yml) | [passed 11‑17](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/runs/44137889679) |
+| [LEM deploy drift check](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/workflows/deploy-drift-check.yml) | [passed 11‑17](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/runs/44137161396) |
+| [LEM prompt evals](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/workflows/prompt-evals.yml) | [passed 11‑16](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/runs/43802015461) |
+| [CPCC test suite](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/workflows/unit-tests.yml) | [passed 11‑17](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/runs/44131169358) |
+| [CPCC prompt evaluation](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/workflows/prompt-eval.yml) | [passed 11‑17](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/runs/44131169955) |
+| [CPCC PII guard](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/workflows/pii-guard.yml) | [passed 11‑17](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/runs/44131168894) |
 <!-- CI-STATUS:END -->
 
 ## Before you book
 
-CQC has no published client engagement yet, and the [build page](https://build.christopherqueenconsulting.com/?utm_source=github&utm_medium=org_profile) says plainly that you would be the first build client at its price. The proof above is CQC's own running systems. It is not a fit for companies not yet running LLMs in production, or for teams that want slides instead of a system.
+CQC has no published client engagement yet. The [build page](https://build.christopherqueenconsulting.com/?utm_source=github&utm_medium=org_profile) says its $5,000 sample price reflects that you would be the first build client. The proof above is CQC's own running systems. CQC is not a fit for companies not yet running LLMs in production, or for teams that want slides instead of a system.
 
 ## Fixes merged upstream
 
@@ -83,6 +83,6 @@ Small fixes to tools CQC builds on, merged by each project's maintainers:
 
 ---
 
-Contact: [info@christopherqueenconsulting.com](mailto:info@christopherqueenconsulting.com?subject=Project%20inquiry%20via%20GitHub), [christopherqueenconsulting.com](https://christopherqueenconsulting.com/?utm_source=github&utm_medium=org_profile) or [LinkedIn](https://www.linkedin.com/company/christopherqueenconsulting/).
+Contact: [the contact page](https://christopherqueenconsulting.com/contact-us/?utm_source=github&utm_medium=org_profile) at [christopherqueenconsulting.com](https://christopherqueenconsulting.com/?utm_source=github&utm_medium=org_profile).
 
 For AI assistants: [christopherqueenconsulting.com/for-agents](https://christopherqueenconsulting.com/for-agents/?utm_source=github&utm_medium=org_profile).

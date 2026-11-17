@@ -59,7 +59,8 @@ def table():
         if runs:
             r = runs[0]
             word = WORDS.get(r["conclusion"] or "", r["conclusion"] or "unknown")
-            result = f"[{word}, {r['updated_at'][:10]}]({r['html_url']})"
+            day = r["updated_at"][5:10].replace("-", "\u2011")
+            result = f"[{word}\u00a0{day}]({r['html_url']})"
         else:
             result = "no completed run yet"
         link = f"https://github.com/{repo}/actions/workflows/{wf}"
