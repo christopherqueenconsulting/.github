@@ -10,7 +10,7 @@
       "-apple-system"
     ],
     "body_px": "16px",
-    "longest_paragraph_chars_est": 106
+    "longest_paragraph_chars_est": 121
   },
   "desktop-dark": {
     "colors": [
@@ -23,7 +23,7 @@
       "-apple-system"
     ],
     "body_px": "16px",
-    "longest_paragraph_chars_est": 106
+    "longest_paragraph_chars_est": 121
   },
   "phone-light": {
     "colors": [
@@ -36,7 +36,7 @@
       "-apple-system"
     ],
     "body_px": "16px",
-    "longest_paragraph_chars_est": 45
+    "longest_paragraph_chars_est": 52
   },
   "phone-dark": {
     "colors": [
@@ -49,6 +49,6 @@
       "-apple-system"
     ],
     "body_px": "16px",
-    "longest_paragraph_chars_est": 45
+    "longest_paragraph_chars_est": 52
   }
 }
