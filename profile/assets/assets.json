@@ -1,0 +1,28 @@
+{
+  "assets": [
+    {
+      "path": "profile/assets/hero-*.svg",
+      "kind": "image",
+      "description": "Hero line drawing: a timeline drawn to scale (audit, 30-day build, day-31 hand-off). Generated line art, no photography.",
+      "owner": "Christopher Queen Consulting",
+      "licence": "owner-made",
+      "max_display_px": { "desktop": 1280, "phone": 720 }
+    },
+    {
+      "path": "profile/assets/hero-*.svg (embedded @font-face)",
+      "kind": "font",
+      "family": "Figtree",
+      "licence": "OFL-1.1",
+      "source": "https://github.com/google/fonts/tree/main/ofl/figtree",
+      "licence_file": "profile/assets/Figtree-OFL.txt",
+      "note": "The variable Figtree[wght].ttf is embedded unmodified as a base64 data URI."
+    },
+    {
+      "path": "profile/mockups/hero-*.svg",
+      "kind": "image",
+      "description": "Two alternate hero mockups not chosen, kept for reference.",
+      "owner": "Christopher Queen Consulting",
+      "licence": "owner-made"
+    }
+  ]
+}

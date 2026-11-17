@@ -17,15 +17,15 @@ import urllib.request
 
 CHECKS = [
     ("christopherqueenconsulting/linkedin_engagement_manager", "LEM", "unit-tests.yml",
-     "Unit tests", "every change"),
+     "unit tests", "every change"),
     ("christopherqueenconsulting/linkedin_engagement_manager", "LEM", "deploy-drift-check.yml",
-     "Deploy drift check", "hourly: live version against published releases"),
+     "deploy drift check", "hourly: live version against published releases"),
     ("christopherqueenconsulting/linkedin_engagement_manager", "LEM", "prompt-evals.yml",
-     "Prompt evals", "weekly: grades changed prompts, datasets and models"),
+     "prompt evals", "weekly: grades changed prompts, datasets and models"),
     ("christopherqueenconsulting/cpcc_task_automation", "CPCC", "unit-tests.yml",
-     "Test suite", "every change"),
+     "test suite", "every change"),
     ("christopherqueenconsulting/cpcc_task_automation", "CPCC", "prompt-eval.yml",
-     "Prompt evaluation", "every change to prompts"),
+     "prompt evaluation", "every change to prompts"),
     ("christopherqueenconsulting/cpcc_task_automation", "CPCC", "pii-guard.yml",
      "PII guard", "every change: blocks personal data in the repo"),
 ]
@@ -50,7 +50,7 @@ def get(url):
 
 def table():
     branches = {}
-    rows = ["| Project | Check | Latest result |", "| --- | --- | --- |"]
+    rows = ["| Check | Latest result |", "| --- | --- |"]
     for repo, short, wf, name, when in CHECKS:
         if repo not in branches:
             branches[repo] = get(f"https://api.github.com/repos/{repo}")["default_branch"]
@@ -63,7 +63,7 @@ def table():
         else:
             result = "no completed run yet"
         link = f"https://github.com/{repo}/actions/workflows/{wf}"
-        rows.append(f"| {short} | [{name}]({link}), {when} | {result} |")
+        rows.append(f"| [{short} {name}]({link}) | {result} |")
     return "\n".join(rows)
 
 
