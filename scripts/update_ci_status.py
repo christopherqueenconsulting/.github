@@ -50,7 +50,7 @@ def get(url):
 
 def table():
     branches = {}
-    rows = ["| Project | Check | Runs | Latest result |", "| --- | --- | --- | --- |"]
+    rows = ["| Project | Check | Latest result |", "| --- | --- | --- |"]
     for repo, short, wf, name, when in CHECKS:
         if repo not in branches:
             branches[repo] = get(f"https://api.github.com/repos/{repo}")["default_branch"]
@@ -63,7 +63,7 @@ def table():
         else:
             result = "no completed run yet"
         link = f"https://github.com/{repo}/actions/workflows/{wf}"
-        rows.append(f"| {short} | [{name}]({link}) | {when} | {result} |")
+        rows.append(f"| {short} | [{name}]({link}), {when} | {result} |")
     return "\n".join(rows)
 
 

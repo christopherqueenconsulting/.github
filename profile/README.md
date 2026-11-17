@@ -27,15 +27,27 @@ The audit works from read-only access to your LLM logs and bills, under your NDA
 
 ## Where LLM features break, and the check that catches it
 
-Each row is a check running in a public repo today. The numbers come with their limits.
+Each check below runs in a public repo today. Every number comes with its limits.
 
-| What goes wrong | The check | Where | What it shows, and its limits |
-| --- | --- | --- | --- |
-| A model's verdict counts with no hard check behind it | A real compiler decides "does not compile" before the model's score counts. If the compiler cannot run, the verdict is "cannot verify", never a fail. | [CPCC Task Automation #267](https://github.com/christopherqueenconsulting/cpcc_task_automation/pull/267) | One false verdict had floored a whole grade. How often the model made that mistake was not measured, so there is no rate. |
-| A release waits undeployed and nobody is told | Database changes with a safe, additive shape ship on their own; anything else holds and opens an issue. An hourly check alerts when a release has waited more than 3 hours. | [LinkedIn Engagement Manager #2194](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/pull/2194) | Of 134 past migrations, 102 would have shipped on their own and 32 would have held, each with a named reason (68 classifier tests; count as of that pull request). |
-| A scheduled job runs green and produces nothing | A daily health check scores each finished day and opens an issue for a dead one. | [Panthera #66](https://github.com/gitchrisqueen/panthera/pull/66) (founder repo) | It flags a dead day the next morning, about 26 hours later at the earliest. Its threshold was measured on past data, not held out. |
-| A prompt or model change makes answers quietly worse | Prompt evals grade changed prompts, datasets and models against fixed floors. | [LEM prompt evals](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/blob/main/docs/prompt-evals.md), [CPCC prompt evaluation](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/workflows/prompt-eval.yml) | Results are in each repo's workflow runs, below. |
-| Spend nobody can explain | Cost per successful call, traced by task, graded in the audit. | [The audit](https://christopherqueenconsulting.com/ai-ops-audit/?utm_source=github&utm_medium=org_profile) | A method, not a claimed saving. The scorecard on that page is a labelled sample. |
+**A model's verdict counts with no hard check behind it.**
+The check: a real compiler decides "does not compile" before the model's score counts. If the compiler cannot run, the verdict is "cannot verify", never a fail. In [CPCC Task Automation #267](https://github.com/christopherqueenconsulting/cpcc_task_automation/pull/267).
+Limits: one false verdict had floored a whole grade. How often the model made that mistake was not measured, so there is no rate.
+
+**A release waits undeployed and nobody is told.**
+The check: database changes with a safe, additive shape ship on their own; anything else holds and opens an issue, and an hourly check alerts when a release has waited more than 3 hours. In [LinkedIn Engagement Manager #2194](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/pull/2194).
+Limits: of 134 past migrations, 102 would have shipped on their own and 32 would have held, each with a named reason (68 classifier tests; the count is as of that pull request).
+
+**A scheduled job runs green and produces nothing.**
+The check: a daily health check scores each finished day and opens an issue for a dead one. In [Panthera #66](https://github.com/gitchrisqueen/panthera/pull/66) (founder repo).
+Limits: it flags a dead day the next morning, about 26 hours later at the earliest. Its threshold was measured on past data, not held out.
+
+**A prompt or model change makes answers quietly worse.**
+The check: prompt evals grade changed prompts, datasets and models against fixed floors. In [LEM prompt evals](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/blob/main/docs/prompt-evals.md) and [CPCC prompt evaluation](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/workflows/prompt-eval.yml).
+Limits: results are in each repo's workflow runs, listed below.
+
+**Spend nobody can explain.**
+The check: cost per successful call, traced by task and graded in [the audit](https://christopherqueenconsulting.com/ai-ops-audit/?utm_source=github&utm_medium=org_profile).
+Limits: a method, not a claimed saving. The scorecard on that page is a labelled sample.
 
 ## Code you can read
 
@@ -47,14 +59,14 @@ Each row is a check running in a public repo today. The numbers come with their 
 The table below is refreshed every weekday morning from each workflow's latest run on its default branch.
 
 <!-- CI-STATUS:START -->
-| Project | Check | Runs | Latest result |
-| --- | --- | --- | --- |
-| LEM | [Unit tests](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/workflows/unit-tests.yml) | every change | [passed, 2026-11-17](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/runs/44137889679) |
-| LEM | [Deploy drift check](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/workflows/deploy-drift-check.yml) | hourly: live version against published releases | [passed, 2026-11-17](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/runs/44137161396) |
-| LEM | [Prompt evals](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/workflows/prompt-evals.yml) | weekly: grades changed prompts, datasets and models | [passed, 2026-11-16](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/runs/43802015461) |
-| CPCC | [Test suite](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/workflows/unit-tests.yml) | every change | [passed, 2026-11-17](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/runs/44131169358) |
-| CPCC | [Prompt evaluation](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/workflows/prompt-eval.yml) | every change to prompts | [passed, 2026-11-17](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/runs/44131169955) |
-| CPCC | [PII guard](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/workflows/pii-guard.yml) | every change: blocks personal data in the repo | [passed, 2026-11-17](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/runs/44131168894) |
+| Project | Check | Latest result |
+| --- | --- | --- |
+| LEM | [Unit tests](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/workflows/unit-tests.yml), every change | [passed, 2026-11-17](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/runs/44137889679) |
+| LEM | [Deploy drift check](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/workflows/deploy-drift-check.yml), hourly: live version against published releases | [passed, 2026-11-17](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/runs/44137161396) |
+| LEM | [Prompt evals](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/workflows/prompt-evals.yml), weekly: grades changed prompts, datasets and models | [passed, 2026-11-16](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/runs/43802015461) |
+| CPCC | [Test suite](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/workflows/unit-tests.yml), every change | [passed, 2026-11-17](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/runs/44131169358) |
+| CPCC | [Prompt evaluation](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/workflows/prompt-eval.yml), every change to prompts | [passed, 2026-11-17](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/runs/44131169955) |
+| CPCC | [PII guard](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/workflows/pii-guard.yml), every change: blocks personal data in the repo | [passed, 2026-11-17](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/runs/44131168894) |
 <!-- CI-STATUS:END -->
 
 ## What working with CQC looks like
