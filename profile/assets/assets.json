@@ -6,10 +6,35 @@
       "description": "Hero line drawing: a timeline drawn to scale (audit, 30-day build, day-31 hand-off). Generated line art, no photography.",
       "owner": "Christopher Queen Consulting",
       "licence": "owner-made",
-      "max_display_px": { "desktop": 1280, "phone": 720 }
+      "max_display_px": {
+        "desktop": 1280,
+        "phone": 720
+      }
     },
     {
-      "path": "profile/assets/hero-*.svg (embedded @font-face)",
+      "path": "profile/assets/sheet2-*.svg",
+      "kind": "image",
+      "description": "Sheet 2 line drawing: three failures matched to the check that catches each. Generated line art, no photography; the embedded Figtree is covered by the font entry.",
+      "owner": "Christopher Queen Consulting",
+      "licence": "owner-made",
+      "max_display_px": {
+        "desktop": 1280,
+        "phone": 720
+      }
+    },
+    {
+      "path": "profile/assets/cta-*.svg",
+      "kind": "image",
+      "description": "Call-to-action button: 'Book a free 30-minute call', navy fill in light, lifted gold in dark.",
+      "owner": "Christopher Queen Consulting",
+      "licence": "owner-made",
+      "max_display_px": {
+        "desktop": 360,
+        "phone": 360
+      }
+    },
+    {
+      "path": "profile/assets/hero-*.svg, sheet2-*.svg and cta-*.svg (embedded @font-face)",
       "kind": "font",
       "family": "Figtree",
       "licence": "OFL-1.1",
