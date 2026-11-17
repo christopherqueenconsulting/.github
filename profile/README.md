@@ -9,9 +9,16 @@
 </picture>
 </a>
 
-**Christopher Queen Consulting (CQC) builds LLM, RAG and agent features and puts the checks that catch their failures in your repo.** One engineer, Christopher Queen, in Jacksonville, Florida.
+**Christopher Queen Consulting (CQC) builds LLM, RAG and agent features<br>and puts the checks that catch their failures in your repo.**
 
-**[Book a free 30-minute call](https://christopherqueenconsulting.com/schedule/?utm_source=github&utm_medium=org_profile)**
+One engineer, Christopher Queen, in Jacksonville, Florida.
+
+<a href="https://christopherqueenconsulting.com/schedule/?utm_source=github&utm_medium=org_profile">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/cta-dark.svg">
+  <img alt="Book a free 30-minute call" src="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/cta-light.svg" width="300">
+</picture>
+</a>
 
 <a href="https://github.com/gitchrisqueen/gitchrisqueen/blob/main/docs/PROOF.md">
 <picture>
