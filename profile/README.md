@@ -5,11 +5,11 @@
   <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/hero-dark-static.svg">
   <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/hero-light-static.svg">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/hero-dark.svg">
-  <img alt="Christopher Queen Consulting home page. Applied AI, with the checks in your repo. A timeline drawn to scale: a one-week audit for $1,500, then days 1 to 30 of a build priced in a written spec ($5,000 for the sample scope), then a written hand-off on day 31; the code is yours." src="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/hero-light.svg" width="100%">
+  <img alt="Christopher Queen Consulting home page. Hand-off, not headcount. For engineering leaders and seed to Series B founders adding LLM, RAG and agent features. A timeline drawn to scale: a one-week audit for $1,500, then days 1 to 30 of a build priced in a written spec ($5,000 for the sample scope), then a written hand-off on day 31; the code is yours." src="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/hero-light.svg" width="100%">
 </picture>
 </a>
 
-**Christopher Queen Consulting (CQC) builds LLM, RAG and agent features and puts the checks that catch their failures in your repo.** It is for engineering leaders and seed to Series B founders adding these features: hand-off, not headcount. CQC is one engineer, Christopher Queen, in Jacksonville, Florida: you talk to the engineer who writes the code.
+**Christopher Queen Consulting (CQC) builds LLM, RAG and agent features and puts the checks that catch their failures in your repo.** CQC is for engineering leaders and seed to Series B founders adding these features: hand-off, not headcount. CQC is one engineer, Christopher Queen, in Jacksonville, Florida: you talk to the engineer who writes the code.
 
 **[Book a free 30-minute call](https://christopherqueenconsulting.com/schedule/?utm_source=github&utm_medium=org_profile)**
 
@@ -69,7 +69,7 @@ LEM runs its deploy drift check hourly and its prompt evals weekly. CPCC runs it
 
 ## Before you book
 
-CQC has no published client engagement yet. The [build page](https://build.christopherqueenconsulting.com/?utm_source=github&utm_medium=org_profile) says its $5,000 sample price reflects that you would be the first build client. The proof above is CQC's own running systems. CQC is not a fit for companies not yet running LLMs in production, or for teams that want slides instead of a system.
+CQC has no published client engagement yet. The [build page](https://build.christopherqueenconsulting.com/?utm_source=github&utm_medium=org_profile) says the build's $5,000 sample price reflects that you would be the first build client. The proof above is CQC's own running systems. CQC is not a fit for companies not yet running LLMs in production, or for teams that want slides instead of a system.
 
 ## Fixes merged upstream
 
@@ -83,6 +83,6 @@ Small fixes to tools CQC builds on, merged by each project's maintainers:
 
 ---
 
-Contact: [the contact page](https://christopherqueenconsulting.com/contact-us/?utm_source=github&utm_medium=org_profile) at [christopherqueenconsulting.com](https://christopherqueenconsulting.com/?utm_source=github&utm_medium=org_profile).
+Contact: [christopherqueenconsulting.com/contact-us](https://christopherqueenconsulting.com/contact-us/?utm_source=github&utm_medium=org_profile).
 
 For AI assistants: [christopherqueenconsulting.com/for-agents](https://christopherqueenconsulting.com/for-agents/?utm_source=github&utm_medium=org_profile).
