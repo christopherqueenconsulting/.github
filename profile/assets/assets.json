@@ -34,7 +34,18 @@
       }
     },
     {
-      "path": "profile/assets/hero-*.svg, sheet2-*.svg and cta-*.svg (embedded @font-face)",
+      "path": "profile/assets/tab-*.svg",
+      "kind": "image",
+      "description": "Fold-out tabs drawn as drafting-sheet index strips, each with its own line icon; they are the click target that opens each fold-out.",
+      "owner": "Christopher Queen Consulting",
+      "licence": "owner-made",
+      "max_display_px": {
+        "desktop": 1280,
+        "phone": 720
+      }
+    },
+    {
+      "path": "profile/assets/hero-*.svg, sheet2-*.svg, cta-*.svg and tab-*.svg (embedded @font-face)",
       "kind": "font",
       "family": "Figtree",
       "licence": "OFL-1.1",
