@@ -1,0 +1,62 @@
+{
+  "desktop-light": {
+    "colors": [
+      "#0969DA",
+      "#1F2328",
+      "#808080",
+      "#D1D9E0",
+      "#F6F8FA",
+      "#FFFFFF"
+    ],
+    "font_families": [
+      "-apple-system"
+    ],
+    "body_px": "16px",
+    "longest_paragraph_chars_est": 106
+  },
+  "desktop-dark": {
+    "colors": [
+      "#0D1117",
+      "#151B23",
+      "#3D444D",
+      "#4493F8",
+      "#808080",
+      "#F0F6FC"
+    ],
+    "font_families": [
+      "-apple-system"
+    ],
+    "body_px": "16px",
+    "longest_paragraph_chars_est": 106
+  },
+  "phone-light": {
+    "colors": [
+      "#0969DA",
+      "#1F2328",
+      "#808080",
+      "#D1D9E0",
+      "#F6F8FA",
+      "#FFFFFF"
+    ],
+    "font_families": [
+      "-apple-system"
+    ],
+    "body_px": "16px",
+    "longest_paragraph_chars_est": 45
+  },
+  "phone-dark": {
+    "colors": [
+      "#0D1117",
+      "#151B23",
+      "#3D444D",
+      "#4493F8",
+      "#808080",
+      "#F0F6FC"
+    ],
+    "font_families": [
+      "-apple-system"
+    ],
+    "body_px": "16px",
+    "longest_paragraph_chars_est": 45
+  }
+}

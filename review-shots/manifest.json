@@ -1,0 +1,34 @@
+{
+  "url": "file:///home/quin/.t3/projects/cqc-github-org-readme-revise/build/render-479fd3c/index.html",
+  "reviewed_sha": "479fd3c80c263815279bb049233eaf099b7a114d",
+  "tool": "capture.js (Playwright, Node; the kit design-capture.py needs Python Playwright, absent on this host)",
+  "viewports": [
+    {
+      "name": "desktop",
+      "width": 1440,
+      "height": 900
+    },
+    {
+      "name": "phone",
+      "width": 390,
+      "height": 844
+    }
+  ],
+  "themes": [
+    "light",
+    "dark"
+  ],
+  "shots": [
+    "desktop-light-fold.png",
+    "desktop-light.png",
+    "desktop-dark-fold.png",
+    "desktop-dark.png",
+    "phone-light-fold.png",
+    "phone-light.png",
+    "phone-dark-fold.png",
+    "phone-dark.png"
+  ],
+  "styled": true,
+  "complete": true,
+  "blocked_hosts": []
+}

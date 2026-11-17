@@ -1,0 +1,46 @@
+{
+  "desktop-light": {
+    "viewport_width": 1440,
+    "scroll_width": 1440,
+    "horizontal_overflow": false,
+    "readme_overflowing_elements": [],
+    "hero": {
+      "rendered_width": 848,
+      "rendered_height": 292,
+      "src": "https://raw.githubusercontent.com/christopherqueenconsulting/.github/feat/org-profile-redesign/profile/assets/hero-light.svg"
+    }
+  },
+  "desktop-dark": {
+    "viewport_width": 1440,
+    "scroll_width": 1440,
+    "horizontal_overflow": false,
+    "readme_overflowing_elements": [],
+    "hero": {
+      "rendered_width": 848,
+      "rendered_height": 292,
+      "src": "https://raw.githubusercontent.com/christopherqueenconsulting/.github/feat/org-profile-redesign/profile/assets/hero-dark.svg"
+    }
+  },
+  "phone-light": {
+    "viewport_width": 390,
+    "scroll_width": 390,
+    "horizontal_overflow": false,
+    "readme_overflowing_elements": [],
+    "hero": {
+      "rendered_width": 358,
+      "rendered_height": 537,
+      "src": "https://raw.githubusercontent.com/christopherqueenconsulting/.github/feat/org-profile-redesign/profile/assets/hero-phone-light.svg"
+    }
+  },
+  "phone-dark": {
+    "viewport_width": 390,
+    "scroll_width": 390,
+    "horizontal_overflow": false,
+    "readme_overflowing_elements": [],
+    "hero": {
+      "rendered_width": 358,
+      "rendered_height": 537,
+      "src": "https://raw.githubusercontent.com/christopherqueenconsulting/.github/feat/org-profile-redesign/profile/assets/hero-phone-dark.svg"
+    }
+  }
+}
