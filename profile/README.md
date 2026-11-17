@@ -9,7 +9,9 @@
 </picture>
 </a>
 
-**Christopher Queen Consulting (CQC) builds LLM, RAG and agent features<br>and puts the checks that catch their failures in your repo.**
+**Christopher Queen Consulting (CQC) builds LLM, RAG and agent features.**
+
+**It puts the checks that catch their failures in your repo.**
 
 One engineer, Christopher Queen, in Jacksonville, Florida.
 
