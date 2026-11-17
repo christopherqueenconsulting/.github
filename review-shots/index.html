@@ -1242,10 +1242,10 @@ body { margin: 0; background: #ffffff; }
   <source media="(prefers-reduced-motion: reduce) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/christopherqueenconsulting/.github/feat/org-profile-redesign/profile/assets/hero-dark-static.svg">
   <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/christopherqueenconsulting/.github/feat/org-profile-redesign/profile/assets/hero-light-static.svg">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/christopherqueenconsulting/.github/feat/org-profile-redesign/profile/assets/hero-dark.svg">
-  <img alt="Christopher Queen Consulting home page. Applied AI that holds up in production. A timeline drawn to scale: a one-week audit for $1,500, then days 1 to 30 of a build priced in a written spec ($5,000 for the sample scope), then a written hand-off of the code and evals on day 31." src="https://raw.githubusercontent.com/christopherqueenconsulting/.github/feat/org-profile-redesign/profile/assets/hero-light.svg" width="100%">
+  <img alt="Christopher Queen Consulting home page. Applied AI, with the checks in your repo. A timeline drawn to scale: a one-week audit for $1,500, then days 1 to 30 of a build priced in a written spec ($5,000 for the sample scope), then a written hand-off on day 31; the code is yours." src="https://raw.githubusercontent.com/christopherqueenconsulting/.github/feat/org-profile-redesign/profile/assets/hero-light.svg" width="100%">
 </picture></themed-picture>
 </a>
-<p dir="auto"><strong>Christopher Queen Consulting (CQC) builds LLM, RAG and agent features that keep working after launch, and puts the checks that prove it in your repo.</strong> It is for engineering leaders and seed to Series B founders who need these features without hiring an ML team. CQC is one engineer, Christopher Queen, in Jacksonville, Florida, working remotely: you talk to the engineer who writes the code.</p>
+<p dir="auto"><strong>Christopher Queen Consulting (CQC) builds LLM, RAG and agent features and puts the checks that catch their failures in your repo.</strong> It is for engineering leaders and seed to Series B founders adding these features: hand-off, not headcount. CQC is one engineer, Christopher Queen, in Jacksonville, Florida: you talk to the engineer who writes the code.</p>
 <p dir="auto"><strong><a href="https://christopherqueenconsulting.com/schedule/?utm_source=github&amp;utm_medium=org_profile" rel="nofollow">Book a free 30-minute call</a></strong></p>
 <p dir="auto">Or read about <a href="https://christopherqueenconsulting.com/ai-ops-audit/?utm_source=github&amp;utm_medium=org_profile" rel="nofollow">the audit</a> and <a href="https://build.christopherqueenconsulting.com/?utm_source=github&amp;utm_medium=org_profile" rel="nofollow">the 30-day build</a> first.</p>
 <h2 dir="auto">Two ways to start</h2>
@@ -1261,21 +1261,21 @@ body { margin: 0; background: #ffffff; }
 <li><strong>What it is:</strong> one working system, built in your repo over 30 days.</li>
 <li><strong>Price:</strong> set in a written spec before day 1. The sample scope, an agent eval harness, is $5,000.</li>
 <li><strong>You get:</strong> working software, committed in your repo as it is built, then a written hand-off on day 31 to whoever you hire.</li>
-<li><strong>You keep:</strong> the code, which the agreement assigns to you, and the evals.</li>
+<li><strong>You keep:</strong> the code, which the agreement assigns to you.</li>
 <li><strong>If the scope changes:</strong> a new spec is written. No invoice arrives mid-build.</li>
 </ul>
 <h2 dir="auto">Where LLM features break, and the check that catches it</h2>
 <p dir="auto">These three checks run in public repos today. Each number comes with its limits.</p>
-<p dir="auto"><strong>A model grades work, and no hard check backs the grade.</strong> In <a href="https://github.com/christopherqueenconsulting/cpcc_task_automation/pull/267" data-hovercard-type="pull_request" data-hovercard-url="/christopherqueenconsulting/cpcc_task_automation/pull/267/hovercard">CPCC Task Automation #267</a>, a real compiler now decides whether code compiles before the model's score counts. If the compiler cannot run, the result is "cannot verify", never a fail. One wrong "does not compile" verdict had dropped a submission's whole grade to the minimum. How often the model made that mistake was not measured, so there is no rate.</p>
-<p dir="auto"><strong>A release waits undeployed, and nobody is told.</strong> In <a href="https://github.com/christopherqueenconsulting/linkedin_engagement_manager/pull/2194" data-hovercard-type="pull_request" data-hovercard-url="/christopherqueenconsulting/linkedin_engagement_manager/pull/2194/hovercard">LinkedIn Engagement Manager #2194</a>, a classifier sorts each database migration. Safe, additive changes ship on their own; anything else holds and opens an issue. An hourly check alerts when a release has waited more than 3 hours. Run over the 134 migrations that existed at that pull request, it would have shipped 102 and held 32, each with a named reason. The classifier has 68 tests.</p>
-<p dir="auto"><strong>A scheduled job runs green and produces nothing.</strong> In <a href="https://github.com/gitchrisqueen/panthera/pull/66" data-hovercard-type="pull_request" data-hovercard-url="/gitchrisqueen/panthera/pull/66/hovercard">Panthera #66</a>, a daily health check scores each finished day and opens an issue for a dead one. It flags a dead day the next morning, about 26 hours later at the earliest. Its threshold was set on past data, not held out.</p>
+<p dir="auto"><strong>A model grades work, and no hard check backs the grade.</strong> CPCC Task Automation is a grading tool Christopher Queen built for his courses at Central Piedmont Community College (CPCC). Since <a href="https://github.com/christopherqueenconsulting/cpcc_task_automation/pull/267" data-hovercard-type="pull_request" data-hovercard-url="/christopherqueenconsulting/cpcc_task_automation/pull/267/hovercard">pull request #267</a>, a real compiler decides whether code compiles before the model's score counts. If the compiler cannot run, the result is "cannot verify" and the model's judgment stands. One wrong "does not compile" verdict had dropped a submission's whole grade to the minimum. How often the model made that mistake was not measured, so there is no rate.</p>
+<p dir="auto"><strong>A release waits undeployed, and nobody is told.</strong> LinkedIn Engagement Manager (LEM) is a live web app. Since <a href="https://github.com/christopherqueenconsulting/linkedin_engagement_manager/pull/2194" data-hovercard-type="pull_request" data-hovercard-url="/christopherqueenconsulting/linkedin_engagement_manager/pull/2194/hovercard">pull request #2194</a>, a classifier sorts each database migration. Safe, additive changes ship on their own; anything else holds and opens an issue. An hourly check alerts when a release has waited more than 3 hours. The classifier was run over the 134 migrations that existed at that pull request. It would have shipped 102 and held 32, each with a named reason. It has 68 tests.</p>
+<p dir="auto"><strong>A scheduled job runs green and produces nothing.</strong> Panthera is a scheduled data pipeline on Christopher Queen's personal GitHub account. Since <a href="https://github.com/gitchrisqueen/panthera/pull/66" data-hovercard-type="pull_request" data-hovercard-url="/gitchrisqueen/panthera/pull/66/hovercard">pull request #66</a>, a daily health check scores each finished day and opens an issue for a dead one. It flags a dead day the next morning, about 26 hours later at the earliest. Its threshold was set on past data, not held out.</p>
 <p dir="auto">Sources and fuller caveats for all three: <a href="https://github.com/gitchrisqueen/gitchrisqueen/blob/main/docs/PROOF.md">the project write-ups</a>.</p>
 <h2 dir="auto">Code you can read</h2>
 <ul dir="auto">
-<li><strong><a href="https://github.com/christopherqueenconsulting/linkedin_engagement_manager">LinkedIn Engagement Manager (LEM)</a></strong>: a live web app for LinkedIn content and engagement (FastAPI, Celery, Redis, MySQL, React, Docker). Its write-up lists its limits: deployed and CI-gated, no revenue.</li>
-<li><strong><a href="https://github.com/christopherqueenconsulting/cpcc_task_automation">CPCC Task Automation (CPCC)</a></strong>: grading and admin automation built by its author for his own college courses. Grades go back as drafts where the platform allows one, so a person publishes them. Its write-up says he is its only user.</li>
+<li><strong><a href="https://github.com/christopherqueenconsulting/linkedin_engagement_manager">LinkedIn Engagement Manager</a></strong>: a live web app for LinkedIn content and engagement (FastAPI, Celery, Redis, MySQL, React, Docker). Its write-up lists its limits: deployed and CI-gated, no revenue.</li>
+<li><strong><a href="https://github.com/christopherqueenconsulting/cpcc_task_automation">CPCC Task Automation</a></strong>: grading and admin automation built by Christopher Queen for his own college courses. Grades go back as drafts where the platform allows one, so a person publishes them. Its write-up says he is its only user.</li>
 </ul>
-<p dir="auto">Two more live on the founder's personal GitHub account, as does Panthera above:</p>
+<p dir="auto">Two more live on Christopher Queen's personal GitHub account:</p>
 <ul dir="auto">
 <li><strong><a href="https://github.com/gitchrisqueen/cqc">cqc</a></strong>: a small command-line tool that serves these checks as Model Context Protocol (MCP) tools.</li>
 <li><strong><a href="https://github.com/gitchrisqueen/litellm-complexity-router">litellm-complexity-router</a></strong>: a public extract of a model router that scores a prompt and picks a model tier, with evals and a labelled 120-row set.</li>
@@ -1292,33 +1292,33 @@ body { margin: 0; background: #ffffff; }
 <tbody>
 <tr>
 <td><a href="https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/workflows/unit-tests.yml">LEM unit tests</a></td>
-<td><a href="https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/runs/44137889679">passed, 2026-11-17</a></td>
+<td><a href="https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/runs/44137889679">passed 11‑17</a></td>
 </tr>
 <tr>
 <td><a href="https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/workflows/deploy-drift-check.yml">LEM deploy drift check</a></td>
-<td><a href="https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/runs/44137161396">passed, 2026-11-17</a></td>
+<td><a href="https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/runs/44137161396">passed 11‑17</a></td>
 </tr>
 <tr>
 <td><a href="https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/workflows/prompt-evals.yml">LEM prompt evals</a></td>
-<td><a href="https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/runs/43802015461">passed, 2026-11-16</a></td>
+<td><a href="https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/runs/43802015461">passed 11‑16</a></td>
 </tr>
 <tr>
 <td><a href="https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/workflows/unit-tests.yml">CPCC test suite</a></td>
-<td><a href="https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/runs/44131169358">passed, 2026-11-17</a></td>
+<td><a href="https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/runs/44131169358">passed 11‑17</a></td>
 </tr>
 <tr>
 <td><a href="https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/workflows/prompt-eval.yml">CPCC prompt evaluation</a></td>
-<td><a href="https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/runs/44131169955">passed, 2026-11-17</a></td>
+<td><a href="https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/runs/44131169955">passed 11‑17</a></td>
 </tr>
 <tr>
 <td><a href="https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/workflows/pii-guard.yml">CPCC PII guard</a></td>
-<td><a href="https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/runs/44131168894">passed, 2026-11-17</a></td>
+<td><a href="https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/runs/44131168894">passed 11‑17</a></td>
 </tr>
 </tbody>
 </table></markdown-accessiblity-table>
 
 <h2 dir="auto">Before you book</h2>
-<p dir="auto">CQC has no published client engagement yet, and the <a href="https://build.christopherqueenconsulting.com/?utm_source=github&amp;utm_medium=org_profile" rel="nofollow">build page</a> says plainly that you would be the first build client at its price. The proof above is CQC's own running systems. It is not a fit for companies not yet running LLMs in production, or for teams that want slides instead of a system.</p>
+<p dir="auto">CQC has no published client engagement yet. The <a href="https://build.christopherqueenconsulting.com/?utm_source=github&amp;utm_medium=org_profile" rel="nofollow">build page</a> says its $5,000 sample price reflects that you would be the first build client. The proof above is CQC's own running systems. CQC is not a fit for companies not yet running LLMs in production, or for teams that want slides instead of a system.</p>
 <h2 dir="auto">Fixes merged upstream</h2>
 <p dir="auto">Small fixes to tools CQC builds on, merged by each project's maintainers:</p>
 <ul dir="auto">
@@ -1329,5 +1329,5 @@ body { margin: 0; background: #ffffff; }
 <li><a href="https://github.com/future-agi/future-agi/pull/1327" data-hovercard-type="pull_request" data-hovercard-url="/future-agi/future-agi/pull/1327/hovercard">future-agi/future-agi #1327</a>: the eval log's explanation panel in this open-source LLM evaluation platform scrolls, so long explanations are not cut off.</li>
 </ul>
 <hr>
-<p dir="auto">Contact: <a href="mailto:info@christopherqueenconsulting.com?subject=Project%20inquiry%20via%20GitHub">info@christopherqueenconsulting.com</a>, <a href="https://christopherqueenconsulting.com/?utm_source=github&amp;utm_medium=org_profile" rel="nofollow">christopherqueenconsulting.com</a> or <a href="https://www.linkedin.com/company/christopherqueenconsulting/" rel="nofollow">LinkedIn</a>.</p>
+<p dir="auto">Contact: <a href="https://christopherqueenconsulting.com/contact-us/?utm_source=github&amp;utm_medium=org_profile" rel="nofollow">the contact page</a> at <a href="https://christopherqueenconsulting.com/?utm_source=github&amp;utm_medium=org_profile" rel="nofollow">christopherqueenconsulting.com</a>.</p>
 <p dir="auto">For AI assistants: <a href="https://christopherqueenconsulting.com/for-agents/?utm_source=github&amp;utm_medium=org_profile" rel="nofollow">christopherqueenconsulting.com/for-agents</a>.</p></article></body></html>
