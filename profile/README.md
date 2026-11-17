@@ -34,7 +34,7 @@ One engineer, Christopher Queen, in Jacksonville, Florida.
   <source media="(max-width: 760px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/tab-audit-phone-dark.svg">
   <source media="(max-width: 760px)" srcset="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/tab-audit-phone-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/tab-audit-dark.svg">
-  <img alt="The audit: one week, $1,500. Scorecard, 8 to 12 page report, readout. Select to open." src="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/tab-audit-light.svg" width="94%">
+  <img alt="The audit: one week, $1,500. Scorecard, 8 to 12 page report, readout. Select to open." src="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/tab-audit-light.svg" width="94%" align="middle">
 </picture></summary>
 
 - **What it is:** your LLM spend and failures, traced and graded.
@@ -52,7 +52,7 @@ One engineer, Christopher Queen, in Jacksonville, Florida.
   <source media="(max-width: 760px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/tab-build-phone-dark.svg">
   <source media="(max-width: 760px)" srcset="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/tab-build-phone-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/tab-build-dark.svg">
-  <img alt="The 30-day build. Priced in a written spec; $5,000 sample scope. Select to open." src="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/tab-build-light.svg" width="94%">
+  <img alt="The 30-day build. Priced in a written spec; $5,000 sample scope. Select to open." src="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/tab-build-light.svg" width="94%" align="middle">
 </picture></summary>
 
 - **What it is:** one working system, built in your repo over 30 days.
@@ -71,7 +71,7 @@ One engineer, Christopher Queen, in Jacksonville, Florida.
   <source media="(max-width: 760px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/tab-checks-phone-dark.svg">
   <source media="(max-width: 760px)" srcset="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/tab-checks-phone-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/tab-checks-dark.svg">
-  <img alt="The three checks, with their limits. Compiler gate, drift gate, health check. Select to open." src="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/tab-checks-light.svg" width="94%">
+  <img alt="The three checks, with their limits. Compiler gate, drift gate, health check. Select to open." src="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/tab-checks-light.svg" width="94%" align="middle">
 </picture></summary>
 
 **A model grades work, and nothing checks it.** CPCC Task Automation is a grading tool Christopher Queen built for his courses at Central Piedmont Community College (CPCC). Since [pull request #267](https://github.com/christopherqueenconsulting/cpcc_task_automation/pull/267), a real compiler decides whether code compiles before the model's score counts. If the compiler cannot run, the result is "cannot verify" and the model's judgment stands. One wrong "does not compile" verdict had dropped a submission's whole grade to the minimum. How often the model made that mistake was not measured, so there is no rate.
@@ -89,7 +89,7 @@ These are CQC's own running systems. Sources and fuller caveats: [the project wr
   <source media="(max-width: 760px) and (prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/tab-code-phone-dark.svg">
   <source media="(max-width: 760px)" srcset="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/tab-code-phone-light.svg">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/tab-code-dark.svg">
-  <img alt="Code, live CI and upstream fixes. 4 repos, 6 live checks, 6 merged fixes. Select to open." src="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/tab-code-light.svg" width="94%">
+  <img alt="Code, live CI and upstream fixes. 4 repos, 6 live checks, 6 merged fixes. Select to open." src="https://raw.githubusercontent.com/christopherqueenconsulting/.github/main/profile/assets/tab-code-light.svg" width="94%" align="middle">
 </picture></summary>
 
 - **[LinkedIn Engagement Manager](https://github.com/christopherqueenconsulting/linkedin_engagement_manager)**: a live web app for LinkedIn content and engagement (FastAPI, Celery, Redis, MySQL, React, Docker). Its write-up lists its limits: deployed and CI-gated, no revenue.
