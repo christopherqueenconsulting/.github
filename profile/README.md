@@ -104,8 +104,8 @@ Latest run of each check on its default branch, refreshed every weekday morning.
 <!-- CI-STATUS:START -->
 | Check | Latest result |
 | --- | --- |
-| [LEM unit tests](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/workflows/unit-tests.yml) | [passed 11‑17](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/runs/44137889679) |
-| [LEM deploy drift check](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/workflows/deploy-drift-check.yml) | [passed 11‑17](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/runs/44148376188) |
+| [LEM unit tests](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/workflows/unit-tests.yml) | [passed 11‑18](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/runs/44292082827) |
+| [LEM deploy drift check](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/workflows/deploy-drift-check.yml) | [passed 11‑18](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/runs/44285515829) |
 | [LEM prompt evals](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/workflows/prompt-evals.yml) | [passed 11‑16](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/runs/43802015461) |
 | [CPCC test suite](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/workflows/unit-tests.yml) | [passed 11‑17](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/runs/44131169358) |
 | [CPCC prompt evaluation](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/workflows/prompt-eval.yml) | [passed 11‑17](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/runs/44131169955) |
