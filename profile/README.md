@@ -104,12 +104,12 @@ Latest run of each check on its default branch, refreshed every weekday morning.
 <!-- CI-STATUS:START -->
 | Check | Latest result |
 | --- | --- |
-| [LEM unit tests](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/workflows/unit-tests.yml) | [passed 11‑19](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/runs/44465523032) |
-| [LEM deploy drift check](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/workflows/deploy-drift-check.yml) | [passed 11‑19](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/runs/44505768338) |
+| [LEM unit tests](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/workflows/unit-tests.yml) | [passed 11‑20](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/runs/44725039617) |
+| [LEM deploy drift check](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/workflows/deploy-drift-check.yml) | [passed 11‑20](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/runs/44719333819) |
 | [LEM prompt evals](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/workflows/prompt-evals.yml) | [passed 11‑16](https://github.com/christopherqueenconsulting/linkedin_engagement_manager/actions/runs/43802015461) |
-| [CPCC test suite](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/workflows/unit-tests.yml) | [passed 11‑17](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/runs/44131169358) |
-| [CPCC prompt evaluation](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/workflows/prompt-eval.yml) | [passed 11‑17](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/runs/44131169955) |
-| [CPCC PII guard](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/workflows/pii-guard.yml) | [passed 11‑17](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/runs/44131168894) |
+| [CPCC test suite](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/workflows/unit-tests.yml) | [passed 11‑19](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/runs/44614332854) |
+| [CPCC prompt evaluation](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/workflows/prompt-eval.yml) | [passed 11‑19](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/runs/44614332833) |
+| [CPCC PII guard](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/workflows/pii-guard.yml) | [passed 11‑19](https://github.com/christopherqueenconsulting/cpcc_task_automation/actions/runs/44614332897) |
 <!-- CI-STATUS:END -->
 
 Small fixes to tools CQC builds on, merged by each project's maintainers:
